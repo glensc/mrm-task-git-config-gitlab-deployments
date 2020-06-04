@@ -1,4 +1,8 @@
 {
+  "name": "mrm-task-git-config-gitlab-deployments",
+  "main": "index.js",
+  "author": "Elan Ruusamäe <glen@pld-linux.org>",
+  "license": "MIT",
   "devDependencies": {
     "mrm-core": "^4.1.0"
   }
