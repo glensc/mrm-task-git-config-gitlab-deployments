@@ -3,6 +3,9 @@
   "main": "index.js",
   "author": "Elan Ruusamäe <glen@pld-linux.org>",
   "license": "MIT",
+  "scripts": {
+    "test": "exit 0"
+  },
   "devDependencies": {
     "mrm-core": "^4.1.0"
   }
