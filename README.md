@@ -1,6 +1,6 @@
-# Fetch GitLab deployments as git refs
+# mrm task to setup GitLab deployments as git refs
 
-A [mrm] task that adds [GitLab deployments git refs](#Fetch GitLab deployments as git refs).
+A [mrm] task that adds [GitLab deployments git refs](#fetch-gitlab-deployments-as-git-refs).
 
 [mrm]: https://mrm.js.org/
 
