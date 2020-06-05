@@ -1,8 +1,17 @@
 {
   "name": "mrm-task-git-config-gitlab-deployments",
-  "main": "index.js",
+  "keywords": [
+    "deployments",
+    "git refs",
+    "git",
+    "gitlab",
+    "mrm",
+    "mrm-task"
+  ],
+  "homepage": "https://github.com/glensc/mrm-task-git-config-gitlab-deployments",
   "author": "Elan Ruusamäe <glen@pld-linux.org>",
   "license": "MIT",
+  "main": "index.js",
   "scripts": {
     "test": "exit 0"
   },
