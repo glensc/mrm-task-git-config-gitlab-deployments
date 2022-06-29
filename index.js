@@ -6,11 +6,11 @@ const { ini } = require('mrm-core');
 
 async function task() {
   const comment = [
-    `GitLab deployment git refs`,
-    'To setup to use this config, invoke from shell:',
+    `# GitLab deployment git refs`,
+    '# To setup to use this config, invoke from shell:',
     '',
-    'git config --add include.path $(git rev-parse --show-toplevel)/config/git-config.ini',
-  ].join("\n# ");
+    '# git config --add include.path $(git rev-parse --show-toplevel)/config/git-config.ini',
+  ].join("\n");
 
   const aliases = {
     "\tdeploy-ref": `!git for-each-ref --sort=-creatordate --count=1 --format='%(refname)' refs/remotes/origin/environment/$1/*`,
