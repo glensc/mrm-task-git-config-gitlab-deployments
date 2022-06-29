@@ -15,7 +15,9 @@
   "scripts": {
     "test": "exit 0"
   },
+  "dependencies": {
+    "mrm-core": "^7.0.0"
+  },
   "devDependencies": {
-    "mrm-core": "^4.1.0"
   }
 }
