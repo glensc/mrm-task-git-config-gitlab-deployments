@@ -20,6 +20,7 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
       - run: yarn --frozen-lockfile
       - run: yarn test
+      - run: yarn version --new-version ${GITHUB_REF#refs/tags/} --no-git-tag-version
 
   publish-npm:
     needs: build
