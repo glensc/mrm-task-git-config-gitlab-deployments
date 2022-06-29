@@ -16,7 +16,7 @@ async function task() {
     "\tdeploy-ref": `!git for-each-ref --sort=-creatordate --count=1 --format='%(refname)' refs/remotes/origin/environment/$1/*`,
   };
 
-  refs = {
+  const refs = {
     "\tfetch": "+refs/environments/*:refs/remotes/origin/environment/*",
   };
 
